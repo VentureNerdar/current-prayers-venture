@@ -69,12 +69,15 @@ class Current_Prayers_Venture_Endpoints {
             'request'                                                               => __('Request', 'current-prayers-venture'),
             'the_system_does_not_have_current_prayers_field_for_the_followings'     => __('The system does not have current prayers field for the followings:', 'current-prayers-venture'),
             'update_needed'                                                         => __('Update Needed', 'current-prayers-venture'),
-            'groups'  => __('Groups', 'current-prayers-venture'),
-            'group'  => __('Group', 'current-prayers-venture'),
-            'church'  => __('Church', 'current-prayers-venture'),
-            'contacts'  => __('Contacts', 'current-prayers-venture'),
-            // 'contact'  => __('Contacts', 'current-prayers-venture'),
+            'groups'                                                                => __('Groups', 'current-prayers-venture'),
+            'group'                                                                 => __('Group', 'current-prayers-venture'),
+            'church'                                                                => __('Church', 'current-prayers-venture'),
+            'contacts'                                                              => __('Contacts', 'current-prayers-venture'),
+            'church_fellowship_group'                                               => __('Church Fellowship Group', 'current-prayers-venture'),
+            'network'                                                               => __('Network', 'current-prayers-venture'),
+            'home_church'                                                           => __('Home Church', 'current-prayers-venture'),
 
+            // 'contacts'                                                              => __('Contacts', 'current-prayers-venture'),
         ];
     }
 

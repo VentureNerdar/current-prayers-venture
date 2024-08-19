@@ -83,7 +83,15 @@ const m = {
       if(data.group_type) {
 
         const span = $('<span class="group-type"></span>')
-        html.title.append(span.html(d.translations[d.fields.groups['group_type'].default[data.group_type].label]))
+        const gt = d.fields.groups['group_type'].default[data.group_type].label
+        const fmtgt = gt.toLowerCase().replaceAll(' ', '_')
+
+        console.log(d.fields.groups['group_type'].default[data.group_type].label)
+        console.log(fmtgt)
+
+        console.log(d.translations[fmtgt])
+
+        html.title.append(span.html(d.translations[fmtgt]))
         
       }
 
@@ -99,9 +107,5 @@ $(document).ready(function() {
 
   m.checkIfFieldsExist()
   m.renderPrayerRequests()
-
-  console.log(d.fields)
-        const gt = d.fields.find(f => f['field_name'] === 'group_type')
-        console.log(gt)
 
 })
