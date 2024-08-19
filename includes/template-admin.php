@@ -11,4 +11,5 @@
             </div><!-- end post-body-content -->
         </div><!-- post-body meta box container -->
     </div><!--poststuff end -->
+    
 </div><!-- wrap end -->
