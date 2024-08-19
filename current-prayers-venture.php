@@ -5,7 +5,7 @@
  * Plugin URI: https://github.com/VentureNerdar/current-prayers-venture
  * NEED TO CHANGE LATER
  * Description: List and display all current prayers for contacts and groups.
- * Version:  1.0.0
+ * Version:  1.0.1
  * Author URI: https://github.com/VentureNerdar
  * GitHub Plugin URI: https://github.com/VentureNerdar/current-prayers-venture
  * Requires at least: 4.7.0
