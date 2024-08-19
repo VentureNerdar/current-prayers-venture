@@ -76,7 +76,8 @@ class Current_Prayers_Venture_Functions {
                 'translations'              => Current_Prayers_Venture_Endpoints::instance()->translations(),
 
                 'fields'                    => Current_Prayers_Venture_Endpoints::get_current_prayers_fields(),
-                'prayers'                   => Current_Prayers_Venture_Endpoints::get_current_prayers()
+                'prayers'                   => Current_Prayers_Venture_Endpoints::get_current_prayers(),
+                'post_tiles'                => Current_Prayers_Venture_Endpoints::post_tiles(), // get_post_tiles
             ],
         );
     }

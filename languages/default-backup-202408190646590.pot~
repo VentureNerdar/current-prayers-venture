@@ -11,11 +11,10 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-08-07 04:49+0000\n"
+"POT-Creation-Date: 2024-08-19 06:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: Loco https://localise.biz/\n"
 "X-Domain: disciple-tools-dashboard\n"
-"\n"
 "Language: \n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;"
 
@@ -31,10 +30,7 @@ msgstr ""
 msgid "Current Prayers"
 msgstr ""
 
-msgid "The system does not have current prayers field for contacts."
-msgstr ""
-
-msgid "The system does not have current prayers field for groups."
+msgid "The system does not have current prayers field for the followings:"
 msgstr ""
 
 msgid "Groups Prayer Requests"
@@ -47,4 +43,22 @@ msgid "From"
 msgstr ""
 
 msgid "Request"
+msgstr ""
+
+msgid "Contacts"
+msgstr ""
+
+msgid "Groups"
+msgstr ""
+
+msgid "Church"
+msgstr ""
+
+msgid "Group"
+msgstr ""
+
+msgid "Home Church"
+msgstr ""
+
+msgid "Church Fellowship Group"
 msgstr ""

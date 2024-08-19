@@ -1,0 +1,59 @@
+# Copyright (C) 2024
+# This file is distributed under the same license as the Disciple.Tools - Dashboard plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Disciple.Tools - Dashboard 1.2.9\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/disciple-tools-"
+"dashboard\n"
+"Last-Translator: \n"
+"Language-Team: ဗမာစာ\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-08-07 04:49+0000\n"
+"PO-Revision-Date: 2024-08-07 05:50+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: disciple-tools-dashboard\n"
+"Language: my_MM\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Loco-Version: 2.6.11; wp-6.6.1"
+
+#: includes/rest-api.php:180
+msgid "%s days since last update"
+msgstr "နောက်ဆုံးအပ်ဒိတ်မှ %s ရက်"
+
+msgid "Church"
+msgstr "အသင်းတော်"
+
+msgid "Contacts"
+msgstr "အဆက်အသွယ်များ"
+
+msgid "Contacts Prayer Requests"
+msgstr "အဆက်အသွယ်များ၏ ဆုတောင်းတောင်းဆိုမှုများ"
+
+#: includes/rest-api.php:91
+msgid "Current Prayers"
+msgstr "လက်ရှိဆုတောင်းချက်များ"
+
+msgid "From"
+msgstr "မှ"
+
+msgid "Group"
+msgstr "အဖွဲ့"
+
+msgid "Groups"
+msgstr "အဖွဲ့များ"
+
+msgid "Groups Prayer Requests"
+msgstr "အဖွဲ့များ၏ဆုတောင်းတောင်းဆိုမှုများ"
+
+msgid "Request"
+msgstr "တောင်းဆိုချက်"
+
+#| msgid "The system does not have current prayers field for contacts."
+msgid "The system does not have current prayers field for the followings:"
+msgstr "စနစ်တွင် အောက်ပါတို့အတွက် လက်ရှိဆုတောင်းချက်အကွက် မရှိပါ။"
+
+#: disciple-tools-dashboard.php:218
+msgid "Update Needed"
+msgstr "အဆင့်မြှင့်တင် လိုအပ်သည်။"

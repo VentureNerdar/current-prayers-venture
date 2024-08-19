@@ -5,6 +5,7 @@ const d = {
   fields: wpApiCurrentPrayers.fields,
   prayers: wpApiCurrentPrayers.prayers,
   translations: wpApiCurrentPrayers.translations,
+  postTiles: wpApiCurrentPrayers.post_tiles
   
 }
 
@@ -80,9 +81,10 @@ const m = {
       html.title.html(`${d.translations.from} : ${data.post_title}`)
 
       if(data.group_type) {
+
         const span = $('<span class="group-type"></span>')
+        html.title.append(span.html(d.translations[d.fields.groups['group_type'].default[data.group_type].label]))
         
-        html.title.append(span.html(d.translations[data.group_type]))
       }
 
       requestBlock.html(html.title).append(html.content)
@@ -97,5 +99,9 @@ $(document).ready(function() {
 
   m.checkIfFieldsExist()
   m.renderPrayerRequests()
+
+  console.log(d.fields)
+        const gt = d.fields.find(f => f['field_name'] === 'group_type')
+        console.log(gt)
 
 })

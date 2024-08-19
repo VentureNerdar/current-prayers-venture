@@ -33,6 +33,7 @@ get_header();
             </h2>
         </div>
     </div>
+
 </div>
 
 <!-- e.o HTML -->

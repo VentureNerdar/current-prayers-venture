@@ -1,68 +1,62 @@
 # Copyright (C) 2024
 # This file is distributed under the same license as the Disciple.Tools - Dashboard plugin.
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Disciple.Tools - Dashboard 1.2.9\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/disciple-tools-"
 "dashboard\n"
-"Last-Translator: \n"
-"Language-Team: Nepali\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-08-07 05:49+0000\n"
-"PO-Revision-Date: 2024-08-19 06:52+0000\n"
+"POT-Creation-Date: 2024-08-19 06:46+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: Loco https://localise.biz/\n"
 "X-Domain: disciple-tools-dashboard\n"
-"Language: ne_NP\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Loco-Version: 2.6.11; wp-6.6.1"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;"
 
 #: includes/rest-api.php:74
 msgid "Church"
-msgstr "चर्च"
-
-msgid "Church Fellowship Group"
-msgstr "चर्च फेलोशिप समूह"
+msgstr ""
 
 #: includes/rest-api.php:75
 msgid "Contacts"
-msgstr "सम्पर्कहरू"
+msgstr ""
 
 #: includes/template-current-prayers.php:24 includes/rest-api.php:65
 msgid "Contacts Prayer Requests"
-msgstr "सम्पर्क प्रार्थना अनुरोधहरू"
+msgstr ""
 
 #: includes/template-admin.php:5
 msgid "CURRENT PRAYERS"
-msgstr "हालको प्रार्थनाहरू"
+msgstr ""
 
 #: includes/functions.php:92 includes/rest-api.php:66
 msgid "Current Prayers"
-msgstr "वर्तमान प्रार्थनाहरू"
+msgstr ""
 
 #. Name of the plugin
 msgid "Disciple.Tools - Current Prayers Venture"
-msgstr "Disciple.Tools - वर्तमान प्रार्थना - Venture"
+msgstr ""
 
 #: includes/rest-api.php:67
 msgid "From"
-msgstr "बाट"
+msgstr ""
 
 #: includes/rest-api.php:73
 msgid "Group"
-msgstr "समूह"
+msgstr ""
 
 #: includes/rest-api.php:72
 msgid "Groups"
-msgstr "समूहहरू"
+msgstr ""
 
 #: includes/template-current-prayers.php:31 includes/rest-api.php:68
 msgid "Groups Prayer Requests"
-msgstr "समूह प्रार्थना अनुरोधहरू"
-
-msgid "Home Church"
-msgstr "घर चर्च"
+msgstr ""
 
 #. Author URI of the plugin
 msgid "https://github.com/VentureNerdar"
@@ -75,27 +69,23 @@ msgstr ""
 #. Description of the plugin
 msgid "List and display all current prayers for contacts and groups."
 msgstr ""
-"सम्पर्क र समूहहरूको लागि सबै हालको प्रार्थनाहरू सूची र प्रदर्शन गर्नुहोस्।"
 
 #: current-prayers-venture.php:295
 msgid "Method does not exist."
-msgstr "विधि अवस्थित छैन।"
-
-msgid "Network"
-msgstr "नेटवर्क"
+msgstr ""
 
 #: includes/rest-api.php:69
 msgid "Request"
-msgstr "अनुरोध गर्नुहोस्"
+msgstr ""
 
 #: includes/rest-api.php:70
 msgid "The system does not have current prayers field for the followings:"
-msgstr "प्रणालीसँग निम्नका लागि हालको प्रार्थना क्षेत्र छैन:"
+msgstr ""
 
 #: includes/rest-api.php:71
 msgid "Update Needed"
-msgstr "अद्यावधिक आवश्यक छ"
+msgstr ""
 
 #: current-prayers-venture.php:272 current-prayers-venture.php:283
 msgid "Whoah, partner!"
-msgstr "वाह, साथी!"
+msgstr ""

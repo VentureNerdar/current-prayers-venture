@@ -11,48 +11,90 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-08-07 05:49+0000\n"
+"POT-Creation-Date: 2024-08-19 06:49+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: Loco https://localise.biz/\n"
 "X-Domain: disciple-tools-dashboard\n"
 "Language: \n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;"
 
-#: disciple-tools-dashboard.php:218
-msgid "Update Needed"
-msgstr ""
-
-#: includes/rest-api.php:180
-msgid "%s days since last update"
-msgstr ""
-
-#: includes/rest-api.php:91
-msgid "Current Prayers"
-msgstr ""
-
-msgid "The system does not have current prayers field for the followings:"
-msgstr ""
-
-msgid "Groups Prayer Requests"
-msgstr ""
-
-msgid "Contacts Prayer Requests"
-msgstr ""
-
-msgid "From"
-msgstr ""
-
-msgid "Request"
-msgstr ""
-
-msgid "Contacts"
-msgstr ""
-
-msgid "Groups"
-msgstr ""
-
+#: includes/rest-api.php:74
 msgid "Church"
 msgstr ""
 
+#: includes/rest-api.php:75
+msgid "Contacts"
+msgstr ""
+
+#: includes/template-current-prayers.php:24 includes/rest-api.php:65
+msgid "Contacts Prayer Requests"
+msgstr ""
+
+#: includes/template-admin.php:5
+msgid "CURRENT PRAYERS"
+msgstr ""
+
+#: includes/functions.php:92 includes/rest-api.php:66
+msgid "Current Prayers"
+msgstr ""
+
+#. Name of the plugin
+msgid "Disciple.Tools - Current Prayers Venture"
+msgstr ""
+
+#: includes/rest-api.php:67
+msgid "From"
+msgstr ""
+
+#: includes/rest-api.php:73
 msgid "Group"
+msgstr ""
+
+#: includes/rest-api.php:72
+msgid "Groups"
+msgstr ""
+
+#: includes/template-current-prayers.php:31 includes/rest-api.php:68
+msgid "Groups Prayer Requests"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://github.com/VentureNerdar"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://github.com/VentureNerdar/current-prayers-venture"
+msgstr ""
+
+#. Description of the plugin
+msgid "List and display all current prayers for contacts and groups."
+msgstr ""
+
+#: current-prayers-venture.php:295
+msgid "Method does not exist."
+msgstr ""
+
+#: includes/rest-api.php:69
+msgid "Request"
+msgstr ""
+
+#: includes/rest-api.php:70
+msgid "The system does not have current prayers field for the followings:"
+msgstr ""
+
+#: includes/rest-api.php:71
+msgid "Update Needed"
+msgstr ""
+
+#: current-prayers-venture.php:272 current-prayers-venture.php:283
+msgid "Whoah, partner!"
+msgstr ""
+
+msgid "Home Church"
+msgstr ""
+
+msgid "Network"
+msgstr ""
+
+msgid "Church Fellowship Group"
 msgstr ""

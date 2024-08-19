@@ -6,54 +6,98 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/disciple-tools-"
 "dashboard\n"
 "Last-Translator: \n"
-"Language-Team: ဗမာစာ\n"
+"Language-Team: Myanmar (Burmese)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-08-07 04:49+0000\n"
-"PO-Revision-Date: 2024-08-07 05:50+0000\n"
+"PO-Revision-Date: 2024-08-19 06:56+0000\n"
 "X-Generator: Loco https://localise.biz/\n"
 "X-Domain: disciple-tools-dashboard\n"
 "Language: my_MM\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Loco-Version: 2.6.11; wp-6.6.1"
 
-#: includes/rest-api.php:180
-msgid "%s days since last update"
-msgstr "နောက်ဆုံးအပ်ဒိတ်မှ %s ရက်"
-
+#: includes/rest-api.php:74
 msgid "Church"
 msgstr "အသင်းတော်"
 
+msgid "Church Fellowship Group"
+msgstr "ဘုရားကျောင်း မိသဟာယ အဖွဲ့"
+
+#: includes/rest-api.php:75
 msgid "Contacts"
 msgstr "အဆက်အသွယ်များ"
 
+#: includes/template-current-prayers.php:24 includes/rest-api.php:65
 msgid "Contacts Prayer Requests"
 msgstr "အဆက်အသွယ်များ၏ ဆုတောင်းတောင်းဆိုမှုများ"
 
-#: includes/rest-api.php:91
+#: includes/template-admin.php:5
+msgid "CURRENT PRAYERS"
+msgstr "လက်ရှိဆုတောင်းချက်များ"
+
+#: includes/functions.php:92 includes/rest-api.php:66
 msgid "Current Prayers"
 msgstr "လက်ရှိဆုတောင်းချက်များ"
 
+#. Name of the plugin
+msgid "Disciple.Tools - Current Prayers Venture"
+msgstr "Disciple.Tools - လက်ရှိဆုတောင်းချက်များ Venture"
+
+#: includes/rest-api.php:67
 msgid "From"
 msgstr "မှ"
 
+#: includes/rest-api.php:73
 msgid "Group"
 msgstr "အဖွဲ့"
 
+#: includes/rest-api.php:72
 msgid "Groups"
 msgstr "အဖွဲ့များ"
 
+#: includes/template-current-prayers.php:31 includes/rest-api.php:68
 msgid "Groups Prayer Requests"
 msgstr "အဖွဲ့များ၏ဆုတောင်းတောင်းဆိုမှုများ"
 
+msgid "Home Church"
+msgstr "နေအိမ်ဘုရားကျောင်း"
+
+#. Author URI of the plugin
+msgid "https://github.com/VentureNerdar"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://github.com/VentureNerdar/current-prayers-venture"
+msgstr ""
+
+#. Description of the plugin
+msgid "List and display all current prayers for contacts and groups."
+msgstr ""
+"အဆက်အသွယ်များနှင့် အဖွဲ့များအတွက် လက်ရှိဆုတောင်းချက်အားလုံးကို "
+"စာရင်းပြုစုခြင်းနှင့် ပြသခြင်း။"
+
+#: current-prayers-venture.php:295
+msgid "Method does not exist."
+msgstr "နည်းလမ်းမရှိပါ။"
+
+msgid "Network"
+msgstr "ကွန်ယက်"
+
+#: includes/rest-api.php:69
 msgid "Request"
 msgstr "တောင်းဆိုချက်"
 
+#: includes/rest-api.php:70
 #| msgid "The system does not have current prayers field for contacts."
 msgid "The system does not have current prayers field for the followings:"
 msgstr "စနစ်တွင် အောက်ပါတို့အတွက် လက်ရှိဆုတောင်းချက်အကွက် မရှိပါ။"
 
-#: disciple-tools-dashboard.php:218
+#: includes/rest-api.php:71
 msgid "Update Needed"
 msgstr "အဆင့်မြှင့်တင် လိုအပ်သည်။"
+
+#: current-prayers-venture.php:272 current-prayers-venture.php:283
+msgid "Whoah, partner!"
+msgstr "ဝိုး! သူငယ်ချင်း!"

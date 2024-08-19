@@ -26,11 +26,10 @@ class Current_Prayers_Venture_Endpoints {
 
         $this->namespace = $this->context . '/v' . intval($this->version);
         add_action('rest_api_init', [$this, 'add_api_routes']);
-
     }
 
     public function has_permission() {
-        
+
         $pass = true;
 
         foreach ($this->permissions as $permission) {
@@ -39,7 +38,6 @@ class Current_Prayers_Venture_Endpoints {
             }
         }
         return $pass;
-        
     }
 
 
@@ -60,7 +58,6 @@ class Current_Prayers_Venture_Endpoints {
             ]
         );
         */
-
     } // e.o add_api_routes
 
     public static function translations() {
@@ -120,5 +117,9 @@ class Current_Prayers_Venture_Endpoints {
             'contacts' => DT_Posts::get_post_field_settings('contacts', false, true),
             'groups'   => DT_Posts::get_post_field_settings('groups', false, true),
         ];
+    }
+
+    public static function post_tiles() {
+        return DT_Posts::get_post_tiles('groups');
     }
 }
