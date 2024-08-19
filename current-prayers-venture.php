@@ -2,12 +2,12 @@
 
 /**
  *Plugin Name: Disciple.Tools - Current Prayers Venture
- * Plugin URI: https://github.com/DiscipleTools/disciple-tools-dashboard *** NEED TO CHANGE LATER ***
+ * Plugin URI: https://github.com/VentureNerdar/current-prayers-venture
  * NEED TO CHANGE LATER
- * Description: The multiplier dashboard upgrades the multipliers experience as soon as they log into the system giving them a landing page with stats.
+ * Description: List and display all current prayers for contacts and groups.
  * Version:  1.0.0
- * Author URI: https://github.com/DiscipleTools
- * GitHub Plugin URI: https://github.com/DiscipleTools/disciple-tools-dashboard
+ * Author URI: https://github.com/VentureNerdar
+ * GitHub Plugin URI: https://github.com/VentureNerdar/current-prayers-venture
  * Requires at least: 4.7.0
  * (Requires 4.7+ because of the integration of the REST API at 4.7 and the security requirements of this milestone version.)
  * Tested up to: 5.6
@@ -109,7 +109,6 @@ class Current_Prayers_Venture_Plugin {
         static $instance = null;
 
         if (is_null($instance)) {
-            // $instance = new dt_dashboard_plugin();
             $instance = new current_prayers_venture_plugin();
             $instance->setup();
             $instance->includes();
@@ -371,7 +370,7 @@ add_action('plugins_loaded', function () {
         }
         if (class_exists('Puc_v4_Factory')) {
             Puc_v4_Factory::buildUpdateChecker(
-                'https://raw.githubusercontent.com/DiscipleTools/disciple-tools-dashboard/master/version-control.json',
+                'https://raw.githubusercontent.com/VentureNerdar/current-prayers-venture/master/version-control.json',
                 __FILE__,
                 'current-prayers-venture'
             );
