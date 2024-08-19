@@ -7,7 +7,7 @@
 
 // class DT_Dashboard_Plugin_Endpoints
 class Current_Prayers_Venture_Endpoints {
-    
+
     public $permissions = ['access_disciple_tools'];
     private static $_instance = null;
 
@@ -90,7 +90,7 @@ class Current_Prayers_Venture_Endpoints {
             FROM $wpdb->postmeta as pm
             INNER JOIN $wpdb->posts as p ON pm.post_id = p.ID
             WHERE pm.meta_key = %s AND p.post_type = %s",
-            'current_prayers',
+            'current_prayer_requests',
             'contacts'
         ), ARRAY_A);
 
@@ -104,7 +104,7 @@ class Current_Prayers_Venture_Endpoints {
             AND pmGroup.meta_key = %s
             AND p.post_type = %s 
             ",
-            'current_prayers',
+            'current_prayer_requests',
             'group_type',
             'groups'
         ), ARRAY_A);
